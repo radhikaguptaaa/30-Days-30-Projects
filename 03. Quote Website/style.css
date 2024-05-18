@@ -64,3 +64,38 @@ box-shadow: 0 10px 20px 0px rgba(0,0,0,0,0.15);
     top:50% ;
     left: -30px;
 }
+
+#quotebox div {
+    width: 100%;
+    margin-top: 50px ;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+#quotebox button {
+    background: rgb(23, 124 , 229);
+    color: #fff;
+    border-width: 0.5px ;
+    border-radius: 25px ;
+    width: 150px ;
+    height: 50px ;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+    outline: none;
+    
+
+}
+#quotebox button img {
+    width: 30px;
+    margin-right: 10px ;
+}
+
+#quotebox button:nth-child(2){
+    background: transparent;
+    color: #333 ;
+}
